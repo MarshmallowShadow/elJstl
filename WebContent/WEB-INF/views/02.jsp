@@ -42,6 +42,16 @@
    		\${5 ne 2} --> ${5 ne 2}<br>
    		<br>
    		\${5>=2 ? 5 : 2} --> ${5>=2 ? 5 : 2}
-   		
+   		<br>
+   		\${true && false} --> ${true && false}<br>
+   		\${true || false} --> ${true || false}<br>
+   		\${!true || false} --> ${!true || false}<br>
+   		<br>
+   		\${str} --> ${str}<br>
+   		\${empty str} --> ${empty str}<br>
+   		\${reqVal} --> ${reqVal}<br>
+   		<br>
+		\${5} + ${2} --> ${5} + ${2}
+		
 	</body>
 </html>
