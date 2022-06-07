@@ -31,8 +31,8 @@
 		${requestScope.num}<br>
 		${requestScope.str}<br>
 		
-		<h3>el</h3>
- 	    번호 = ${requestScope.userVo.no}<br>
+		<h3>el</h3> <!-- getter/setter위주로 가져온다 --> 
+		번호 = ${requestScope.userVo.no}<br>
 	    이름 = ${requestScope.userVo.name} <br>
 	    이메일 = ${requestScope.userVo.email}<br>
 	    패스워드 = ${requestScope.userVo.password}<br>
